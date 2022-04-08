@@ -7,7 +7,7 @@ namespace ServiceBusReceiver
 {
     class Program
     {
-        const string ServiceBusConnectionString = "Endpoint=sb://messgaeserviceevent.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=9GYQTZg7LZ8ZtEZIaWfcNdiKTyWg3VtbYGU7WVjoiU0=";
+        const string ServiceBusConnectionString = "";// write your own connection string
         const string queuename = "queue1";
         static IQueueClient queueClient;
         static void Main(string[] args)
