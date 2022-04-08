@@ -7,7 +7,7 @@ namespace topicSender
 {
     class Program
     {
-        const string ServiceBusConnectionString = "Endpoint=sb://apbusservicebus.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=icjNJRIMehfL7UvrY6WONooRVFgt7yHv1tswtFbPAc0=";
+        const string ServiceBusConnectionString = "";
         const string topicname = "topic1";
         static ITopicClient topicClient;
         static void Main(string[] args)
